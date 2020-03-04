@@ -10,7 +10,8 @@ before_install:
   - gem install bundler
 
 before_deploy:
-  - cd kaitingpeck/slate
+  - cd
+  - ls
 
 cache: bundler
 script: bundle exec middleman build
