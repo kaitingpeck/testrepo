@@ -15,7 +15,7 @@ before_deploy:
 cache: bundler
 script: bundle exec middleman build
 deploy:
-  local-dir: ~/testreporenamed/build
+  local-dir: build
   provider: pages
   cleanup: true
   token: $GITHUB_TOKEN
