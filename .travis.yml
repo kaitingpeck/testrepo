@@ -11,7 +11,6 @@ before_install:
 
 before_deploy:
   - cd
-  - ls
 
 cache: bundler
 script: bundle exec middleman build
